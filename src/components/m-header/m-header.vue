@@ -15,21 +15,21 @@ export default {
   @import "~common/stylus/mixin"
   .m-header
     position: relative
-    height: .44rem
+    height: .88rem
     text-align: center
     font-size: 0
     color: $color-theme
     .icon
       display: inline-block
-      margin-top: .06rem
-      margin-right: .09rem
-      width: .3rem
-      height: .32rem
+      margin-top: .12rem
+      margin-right: .18rem
+      width: .6rem
+      height: .64rem
       bg-image('logo')
-      background-size: .3rem .32rem
+      background-size: .6rem .64rem
     .text
       display: inline-block
       vertical-align: top
-      line-height: 44px
+      line-height: .88rem
       font-size: $font-size-large
 </style>
