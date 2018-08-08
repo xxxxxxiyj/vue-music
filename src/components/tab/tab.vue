@@ -3,11 +3,8 @@
     <router-link class="tab-item" to="/recommend">
       <span class="tab-link">推荐</span>
     </router-link>
-    <router-link class="tab-item" to="/singer">
-      <span class="tab-link">歌手</span>
-    </router-link>
     <router-link class="tab-item" to="/rank">
-      <span class="tab-link">排行</span>
+      <span class="tab-link">排行榜</span>
     </router-link>
     <router-link class="tab-item" to="/search">
       <span class="tab-link">搜索</span>
@@ -25,9 +22,10 @@ export default {
   .tab
     display: flex
     flex-direction: row
-    height: .88rem
-    line-height: .88rem
-    font-size: $font-size-medium
+    height: .8rem
+    line-height: .8rem
+    font-size: $font-size-medium-x
+    background-color: #fff
     .tab-item
       flex: 1
       text-align: center
@@ -36,7 +34,6 @@ export default {
         letter-spacing: .05rem
         color: $color-text-l
       &.router-link-active
-        .tab-link
-          color: $color-theme
-          border-bottom: 2px solid $color-theme
+        color: $color-theme
+        border-bottom: 2px solid $color-theme
 </style>

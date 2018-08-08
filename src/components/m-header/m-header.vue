@@ -1,7 +1,7 @@
 <template>
   <div class="m-header">
     <div class="icon"></div>
-    <div class="text">Music</div>
+    <!-- <div class="text">下载APP</div> -->
   </div>
 </template>
 
@@ -18,15 +18,14 @@ export default {
     height: .88rem
     text-align: center
     font-size: 0
-    color: $color-theme
+    background-color: $color-theme
     .icon
       display: inline-block
-      margin-top: .12rem
-      margin-right: .18rem
-      width: .6rem
-      height: .64rem
-      bg-image('logo')
-      background-size: .6rem .64rem
+      margin-top: .2rem
+      width: 1.8rem
+      height: .5rem
+      background: url('./logo.png') no-repeat
+      background-size: cover
     .text
       display: inline-block
       vertical-align: top
